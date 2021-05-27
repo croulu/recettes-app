@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd01cbe-2508-4455-86b8-180175ab6cde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AjouterRecette.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AjouterRecette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AjouterRecette.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1622055581822" duration="2087000" />
       <workItem from="1622094300376" duration="662000" />
       <workItem from="1622095361108" duration="4686000" />
-      <workItem from="1622117288610" duration="2175000" />
+      <workItem from="1622117288610" duration="3049000" />
     </task>
     <servers />
   </component>
