@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bd01cbe-2508-4455-86b8-180175ab6cde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AjouterRecette.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AjouterRecette.js" afterDir="false" />
-    </list>
+    <list default="true" id="7bd01cbe-2508-4455-86b8-180175ab6cde" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +37,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="npm.npm start">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -80,7 +64,8 @@
       <workItem from="1622055581822" duration="2087000" />
       <workItem from="1622094300376" duration="662000" />
       <workItem from="1622095361108" duration="4686000" />
-      <workItem from="1622117288610" duration="3049000" />
+      <workItem from="1622117288610" duration="3993000" />
+      <workItem from="1622178956173" duration="541000" />
     </task>
     <servers />
   </component>
