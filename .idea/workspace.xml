@@ -37,6 +37,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="npm.npm start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -65,7 +76,7 @@
       <workItem from="1622094300376" duration="662000" />
       <workItem from="1622095361108" duration="4686000" />
       <workItem from="1622117288610" duration="3993000" />
-      <workItem from="1622178956173" duration="541000" />
+      <workItem from="1622178956173" duration="1649000" />
     </task>
     <servers />
   </component>
