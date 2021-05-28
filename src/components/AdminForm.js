@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AdminForm = ({ id:key, modifierRecette, recettes }) => {
+const AdminForm = ({ id:key, modifierRecette, recettes, supprimerRecette }) => {
     const recette = recettes[key]
 
     const handleChange = (event, key) => {
@@ -18,7 +18,7 @@ const AdminForm = ({ id:key, modifierRecette, recettes }) => {
                 <textarea value={recette.ingredients} onChange={e => handleChange(e, key)} name='ingredients' rows='3' placeholder='Liste des ingrédients'/>
                 <textarea value={recette.instructions} onChange={e => handleChange(e, key)} name='instructions' rows='15' placeholder='Liste des instructions'/>
             </form>
-            <button>Supprimer</button>
+            <button onClick={() => supprimerRecette(key)} >Supprimer</button>
         </div>
     );
 };
