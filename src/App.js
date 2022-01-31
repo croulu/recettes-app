@@ -15,13 +15,19 @@ class App extends Component {
 
     componentDidMount() {
         this.ref = base.syncState(`/${this.state.pseudo}/recettes`, {
-            context : this,
+            context: this,
             state: 'recettes'
         })
     }
 
     componentWillUnmount() {
         base.removeBinding(this.ref)
+    }
+
+    ajouterRecette = recette => {
+        const recettes = {...this.state.recettes}
+        recettes[`recette-${Date.now()}`] = recette
+        this.setState({recettes})
     }
 
     chargerExemple = () => this.setState({recettes})
@@ -36,7 +42,9 @@ class App extends Component {
                 <div className='cards'>
                     {cards}
                 </div>
-                <Admin chargerExemple={this.chargerExemple}></Admin>
+                <Admin
+                    ajouterRecette={this.ajouterRecette}
+                    chargerExemple={this.chargerExemple}></Admin>
             </div>
         )
     }
