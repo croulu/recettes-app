@@ -5,14 +5,15 @@ import Header from "./components/Header";
 import Admin from "./components/Admin";
 import Card from "./components/Card";
 import withFirebase from "./hoc/withFirebase";
+import PropTypes from "prop-types";
 
-const App = ( { match, recettes, ajouterRecette, majRecette, supprimerRecette, chargerExemple}) => {
+const App = ({match, recettes, ajouterRecette, majRecette, supprimerRecette, chargerExemple}) => {
     const cards = Object.keys(recettes)
         .map(key => <Card key={key} details={recettes[key]}></Card>)
 
     return (
         <div className='box'>
-            <Header pseudo={match.params.pseudo} />
+            <Header pseudo={match.params.pseudo}/>
             <div className='cards'>
                 {cards}
             </div>
@@ -22,9 +23,19 @@ const App = ( { match, recettes, ajouterRecette, majRecette, supprimerRecette, c
                 ajouterRecette={ajouterRecette}
                 majRecette={majRecette}
                 supprimerRecette={supprimerRecette}
-                chargerExemple={chargerExemple} />
+                chargerExemple={chargerExemple}
+            />
         </div>
     )
+}
+
+App.propTypes = {
+    match: PropTypes.object.isRequired,
+    recettes: PropTypes.object.isRequired,
+    ajouterRecette: PropTypes.func.isRequired,
+    majRecette: PropTypes.func.isRequired,
+    supprimerRecette: PropTypes.func.isRequired,
+    chargerExemple: PropTypes.func.isRequired
 }
 
 const WrappedComponent = withFirebase(App)
