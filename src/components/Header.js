@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Header = ({ pseudo }) => {
+const Header = ({pseudo}) => {
+
     const formatPseudo = pseudo => /[aeiouy]/i.test(pseudo[0]) ? `d'${pseudo}` : `de ${pseudo}`
 
     return (

@@ -1,34 +1,34 @@
 import React from 'react';
 
-const Card = ({ details }) => {
-    const formatIngredients = details.ingredients
+const Card = ({details}) => {
+    const ingredients = details.ingredients
         .split(",")
         .map(item => <li key={item}>{item}</li>)
 
-    const formatInstructions = details.instructions
+    const instructions = details.instructions
         .split("\n")
         .map(item => <li key={item}>{item}</li>)
 
     const requireImage = chemin => {
         try {
-            return require(`../img/${chemin}`).default
+            return require(`../img/${chemin}`)
         } catch (err) {
-            return require(`../img/default.jpeg`).default
+            return require(`../img/default.jpeg`)
         }
     }
 
     return (
-        <div className='card'>`
-            <div className='image'>
+        <div className="card">
+            <div className="image">
                 <img src={requireImage(details.image)} alt={details.nom} />
             </div>
-            <div className='recette'>
-                <h2>{details.nom}</h2>
+            <div className="recette">
+                <h2>{details.nom} - {details.image}</h2>
                 <ul className="liste-ingredients">
-                    {formatIngredients}
+                    {ingredients}
                 </ul>
                 <ol className="liste-instructions">
-                    {formatInstructions}
+                    {instructions}
                 </ol>
             </div>
         </div>

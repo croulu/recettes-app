@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7bd01cbe-2508-4455-86b8-180175ab6cde" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="7bd01cbe-2508-4455-86b8-180175ab6cde" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
+    </list>
+>>>>>>> A_NOUVEAU
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1t5MTxn2dlXB5xxcfxaACzTadyk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -72,17 +90,34 @@
       <updated>1622054508984</updated>
       <workItem from="1622054510018" duration="861000" />
       <workItem from="1622055488137" duration="81000" />
+<<<<<<< HEAD
       <workItem from="1622055581822" duration="2087000" />
       <workItem from="1622094300376" duration="662000" />
       <workItem from="1622095361108" duration="4686000" />
       <workItem from="1622117288610" duration="3993000" />
       <workItem from="1622178956173" duration="3649000" />
+=======
+      <workItem from="1622055581822" duration="390000" />
+      <workItem from="1643463142417" duration="579000" />
+      <workItem from="1643531176886" duration="7115000" />
+      <workItem from="1643611102264" duration="885000" />
+      <workItem from="1643612356672" duration="7038000" />
+      <workItem from="1643697460581" duration="550000" />
+      <workItem from="1643701356890" duration="185000" />
+      <workItem from="1643714962376" duration="743000" />
+      <workItem from="1643795726943" duration="211000" />
+      <workItem from="1643819816064" duration="598000" />
+      <workItem from="1643970905043" duration="434000" />
+      <workItem from="1643992657912" duration="430000" />
+      <workItem from="1644212180793" duration="3542000" />
+>>>>>>> A_NOUVEAU
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
   <component name="WindowStateProjectService">
     <state x="207" y="-763" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622056472168">
       <screen x="-67" y="-1055" width="1920" height="1055" />
@@ -109,4 +144,6 @@
     </state>
     <state x="275" y="-651" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-67.-1055.1920.1055/0.25.1792.1010@-67.-1055.1920.1055" timestamp="1622114830765" />
   </component>
+=======
+>>>>>>> A_NOUVEAU
 </project>
